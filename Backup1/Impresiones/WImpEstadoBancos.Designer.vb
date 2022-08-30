@@ -1,0 +1,496 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class WImpEstadoBancos
+    Inherits System.Windows.Forms.Form
+
+    'Form reemplaza a Dispose para limpiar la lista de componentes.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Requerido por el Diseñador de Windows Forms
+    Private components As System.ComponentModel.IContainer
+
+    'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
+    'Se puede modificar usando el Diseñador de Windows Forms.  
+    'No lo modifique con el editor de código.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.TxtNomCb = New System.Windows.Forms.TextBox
+        Me.TxtCodCb = New System.Windows.Forms.TextBox
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.TxtCodEmp = New System.Windows.Forms.TextBox
+        Me.txtNomEmp = New System.Windows.Forms.TextBox
+        Me.Label6 = New System.Windows.Forms.Label
+        Me.btnEjecutar = New System.Windows.Forms.Button
+        Me.btnCancelar = New System.Windows.Forms.Button
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Me.dtpDesde = New System.Windows.Forms.DateTimePicker
+        Me.dtpHasta = New System.Windows.Forms.DateTimePicker
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.TxtMoneda = New System.Windows.Forms.TextBox
+        Me.txtDesMes = New System.Windows.Forms.TextBox
+        Me.Label20 = New System.Windows.Forms.Label
+        Me.Label19 = New System.Windows.Forms.Label
+        Me.txtCodMes = New System.Windows.Forms.TextBox
+        Me.txtAno = New System.Windows.Forms.TextBox
+        Me.Panel1 = New System.Windows.Forms.Panel
+        Me.crv1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer
+        Me.CrRptEstadoBancos1 = New Presentacion.CrRptEstadoBancos
+        Me.TxtNunCta = New System.Windows.Forms.TextBox
+        Me.GroupBox1.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'TxtNomCb
+        '
+        Me.TxtNomCb.Location = New System.Drawing.Point(418, 45)
+        Me.TxtNomCb.Name = "TxtNomCb"
+        Me.TxtNomCb.ReadOnly = True
+        Me.TxtNomCb.Size = New System.Drawing.Size(265, 20)
+        Me.TxtNomCb.TabIndex = 281
+        Me.TxtNomCb.Tag = "6"
+        '
+        'TxtCodCb
+        '
+        Me.TxtCodCb.BackColor = System.Drawing.Color.White
+        Me.TxtCodCb.Location = New System.Drawing.Point(356, 45)
+        Me.TxtCodCb.Name = "TxtCodCb"
+        Me.TxtCodCb.Size = New System.Drawing.Size(61, 20)
+        Me.TxtCodCb.TabIndex = 1
+        Me.TxtCodCb.Tag = "5"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(283, 48)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(66, 13)
+        Me.Label1.TabIndex = 280
+        Me.Label1.Text = "Cta.Banco"
+        '
+        'TxtCodEmp
+        '
+        Me.TxtCodEmp.Location = New System.Drawing.Point(80, 22)
+        Me.TxtCodEmp.Name = "TxtCodEmp"
+        Me.TxtCodEmp.ReadOnly = True
+        Me.TxtCodEmp.Size = New System.Drawing.Size(34, 20)
+        Me.TxtCodEmp.TabIndex = 276
+        Me.TxtCodEmp.Tag = "0"
+        '
+        'txtNomEmp
+        '
+        Me.txtNomEmp.Location = New System.Drawing.Point(115, 22)
+        Me.txtNomEmp.Name = "txtNomEmp"
+        Me.txtNomEmp.ReadOnly = True
+        Me.txtNomEmp.Size = New System.Drawing.Size(151, 20)
+        Me.txtNomEmp.TabIndex = 277
+        Me.txtNomEmp.Tag = "1"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.Label6.Location = New System.Drawing.Point(18, 25)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(55, 13)
+        Me.Label6.TabIndex = 279
+        Me.Label6.Text = "Empresa"
+        '
+        'btnEjecutar
+        '
+        Me.btnEjecutar.Image = Global.Presentacion.My.Resources.Resources.apply
+        Me.btnEjecutar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnEjecutar.Location = New System.Drawing.Point(860, 19)
+        Me.btnEjecutar.Name = "btnEjecutar"
+        Me.btnEjecutar.Size = New System.Drawing.Size(107, 23)
+        Me.btnEjecutar.TabIndex = 2
+        Me.btnEjecutar.Tag = "8"
+        Me.btnEjecutar.Text = "Ejecutar"
+        Me.btnEjecutar.UseVisualStyleBackColor = True
+        '
+        'btnCancelar
+        '
+        Me.btnCancelar.Image = Global.Presentacion.My.Resources.Resources.action_stop
+        Me.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnCancelar.Location = New System.Drawing.Point(860, 44)
+        Me.btnCancelar.Name = "btnCancelar"
+        Me.btnCancelar.Size = New System.Drawing.Size(107, 23)
+        Me.btnCancelar.TabIndex = 3
+        Me.btnCancelar.Tag = "9"
+        Me.btnCancelar.Text = "Cancelar"
+        Me.btnCancelar.UseVisualStyleBackColor = True
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox1.Controls.Add(Me.TxtNunCta)
+        Me.GroupBox1.Controls.Add(Me.dtpDesde)
+        Me.GroupBox1.Controls.Add(Me.dtpHasta)
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.TxtMoneda)
+        Me.GroupBox1.Controls.Add(Me.btnCancelar)
+        Me.GroupBox1.Controls.Add(Me.btnEjecutar)
+        Me.GroupBox1.Controls.Add(Me.txtDesMes)
+        Me.GroupBox1.Controls.Add(Me.TxtNomCb)
+        Me.GroupBox1.Controls.Add(Me.Label20)
+        Me.GroupBox1.Controls.Add(Me.TxtCodCb)
+        Me.GroupBox1.Controls.Add(Me.Label19)
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.txtCodMes)
+        Me.GroupBox1.Controls.Add(Me.txtAno)
+        Me.GroupBox1.Controls.Add(Me.TxtCodEmp)
+        Me.GroupBox1.Controls.Add(Me.Label6)
+        Me.GroupBox1.Controls.Add(Me.txtNomEmp)
+        Me.GroupBox1.Location = New System.Drawing.Point(3, 2)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(988, 81)
+        Me.GroupBox1.TabIndex = 278
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Elija Periodo"
+        '
+        'dtpDesde
+        '
+        Me.dtpDesde.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtpDesde.Location = New System.Drawing.Point(538, 22)
+        Me.dtpDesde.Name = "dtpDesde"
+        Me.dtpDesde.Size = New System.Drawing.Size(103, 20)
+        Me.dtpDesde.TabIndex = 287
+        '
+        'dtpHasta
+        '
+        Me.dtpHasta.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtpHasta.Location = New System.Drawing.Point(683, 22)
+        Me.dtpHasta.Name = "dtpHasta"
+        Me.dtpHasta.Size = New System.Drawing.Size(97, 20)
+        Me.dtpHasta.TabIndex = 286
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(644, 25)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(41, 13)
+        Me.Label3.TabIndex = 285
+        Me.Label3.Text = "Hasta :"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(488, 25)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(44, 13)
+        Me.Label2.TabIndex = 284
+        Me.Label2.Text = "Desde :"
+        '
+        'TxtMoneda
+        '
+        Me.TxtMoneda.BackColor = System.Drawing.SystemColors.Control
+        Me.TxtMoneda.Location = New System.Drawing.Point(689, 46)
+        Me.TxtMoneda.MaxLength = 10
+        Me.TxtMoneda.Name = "TxtMoneda"
+        Me.TxtMoneda.ReadOnly = True
+        Me.TxtMoneda.Size = New System.Drawing.Size(91, 20)
+        Me.TxtMoneda.TabIndex = 283
+        Me.TxtMoneda.Tag = "7"
+        '
+        'txtDesMes
+        '
+        Me.txtDesMes.BackColor = System.Drawing.SystemColors.Control
+        Me.txtDesMes.Location = New System.Drawing.Point(388, 22)
+        Me.txtDesMes.MaxLength = 10
+        Me.txtDesMes.Name = "txtDesMes"
+        Me.txtDesMes.ReadOnly = True
+        Me.txtDesMes.Size = New System.Drawing.Size(84, 20)
+        Me.txtDesMes.TabIndex = 103
+        Me.txtDesMes.Tag = "4"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.Label20.Location = New System.Drawing.Point(18, 48)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(29, 13)
+        Me.Label20.TabIndex = 228
+        Me.Label20.Text = "Año"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.Label19.Location = New System.Drawing.Point(283, 25)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(30, 13)
+        Me.Label19.TabIndex = 229
+        Me.Label19.Text = "Mes"
+        '
+        'txtCodMes
+        '
+        Me.txtCodMes.BackColor = System.Drawing.Color.White
+        Me.txtCodMes.Location = New System.Drawing.Point(355, 22)
+        Me.txtCodMes.MaxLength = 10
+        Me.txtCodMes.Name = "txtCodMes"
+        Me.txtCodMes.Size = New System.Drawing.Size(29, 20)
+        Me.txtCodMes.TabIndex = 0
+        Me.txtCodMes.Tag = "3"
+        '
+        'txtAno
+        '
+        Me.txtAno.BackColor = System.Drawing.SystemColors.Control
+        Me.txtAno.Location = New System.Drawing.Point(80, 45)
+        Me.txtAno.MaxLength = 4
+        Me.txtAno.Name = "txtAno"
+        Me.txtAno.ReadOnly = True
+        Me.txtAno.Size = New System.Drawing.Size(55, 20)
+        Me.txtAno.TabIndex = 102
+        Me.txtAno.Tag = "2"
+        '
+        'Panel1
+        '
+        Me.Panel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel1.Controls.Add(Me.crv1)
+        Me.Panel1.Location = New System.Drawing.Point(3, 87)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(988, 349)
+        Me.Panel1.TabIndex = 282
+        '
+        'crv1
+        '
+        Me.crv1.ActiveViewIndex = 0
+        Me.crv1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.crv1.DisplayGroupTree = False
+        Me.crv1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.crv1.Location = New System.Drawing.Point(0, 0)
+        Me.crv1.Name = "crv1"
+        Me.crv1.ReportSource = Me.CrRptEstadoBancos1
+        Me.crv1.Size = New System.Drawing.Size(988, 349)
+        Me.crv1.TabIndex = 100
+        '
+        'TxtNunCta
+        '
+        Me.TxtNunCta.BackColor = System.Drawing.SystemColors.Control
+        Me.TxtNunCta.Location = New System.Drawing.Point(785, 46)
+        Me.TxtNunCta.MaxLength = 10
+        Me.TxtNunCta.Name = "TxtNunCta"
+        Me.TxtNunCta.ReadOnly = True
+        Me.TxtNunCta.Size = New System.Drawing.Size(57, 20)
+        Me.TxtNunCta.TabIndex = 288
+        Me.TxtNunCta.Tag = "7"
+        '
+        'WImpEstadoBancos
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(993, 437)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Name = "WImpEstadoBancos"
+        Me.Text = "Estado de Bancos"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
+    End Sub
+
+    Function ListaControles() As List(Of CtrlsEdit)
+        Dim lis As New List(Of CtrlsEdit)
+        Dim item As CtrlsEdit
+
+        item = New CtrlsEdit
+        item.Control = Me.TxtCodEmp
+        item.PasaFoco = "0"
+        item.Formato = "0"
+        item.PasarCursor = "0"
+        item.Limpiar = "0"
+        item.DatoLimpiar = ""
+        item.Campo = "Codigo"
+        item.Obligatorio = "0"
+        item.Teclazo = Validar.Tecla.kNada
+        item.Valida = Validar.texto.vNada
+        item.Nuevo = "0"
+        item.Modificar = "0"
+        item.Eliminar = "0"
+        item.Visualizar = "0"
+        lis.Add(item)
+
+        item = New CtrlsEdit
+        item.Control = Me.txtNomEmp
+        item.PasaFoco = "0"
+        item.Formato = "0"
+        item.PasarCursor = "0"
+        item.Limpiar = "0"
+        item.DatoLimpiar = ""
+        item.Campo = "Nombre"
+        item.Obligatorio = "0"
+        item.Teclazo = Validar.Tecla.kNada
+        item.Valida = Validar.texto.vNada
+        item.Nuevo = "0"
+        item.Modificar = "0"
+        item.Eliminar = "0"
+        item.Visualizar = "0"
+        lis.Add(item)
+
+        item = New CtrlsEdit
+        item.Control = Me.txtAno
+        item.PasaFoco = "0"
+        item.Formato = "0"
+        item.PasarCursor = "0"
+        item.Limpiar = "0"
+        item.DatoLimpiar = ""
+        item.Campo = "Ano"
+        item.Obligatorio = "0"
+        item.Teclazo = Validar.Tecla.kNada
+        item.Valida = Validar.texto.vNada
+        item.Nuevo = "0"
+        item.Modificar = "0"
+        item.Eliminar = "0"
+        item.Visualizar = "0"
+        lis.Add(item)
+
+        item = New CtrlsEdit
+        item.Control = Me.txtCodMes
+        item.PasaFoco = "1"
+        item.Formato = "0"
+        item.PasarCursor = "1"
+        item.Limpiar = "0"
+        item.DatoLimpiar = ""
+        item.Campo = "Mes"
+        item.Obligatorio = "1"
+        item.Teclazo = Validar.Tecla.kSoloNumeroSinEspacio
+        item.Valida = Validar.texto.vSoloNumerosSinEspacio
+        item.Nuevo = "0"
+        item.Modificar = "0"
+        item.Eliminar = "0"
+        item.Visualizar = "0"
+        lis.Add(item)
+
+        item = New CtrlsEdit
+        item.Control = Me.txtDesMes
+        item.PasaFoco = "0"
+        item.Formato = "0"
+        item.PasarCursor = "0"
+        item.Limpiar = "0"
+        item.DatoLimpiar = ""
+        item.Campo = ""
+        item.Obligatorio = "0"
+        item.Teclazo = Validar.Tecla.kNada
+        item.Valida = Validar.texto.vNada
+        item.Nuevo = "0"
+        item.Modificar = "0"
+        item.Eliminar = "0"
+        item.Visualizar = "0"
+        lis.Add(item)
+
+        item = New CtrlsEdit
+        item.Control = Me.TxtCodCb
+        item.PasaFoco = "1"
+        item.Formato = "0"
+        item.PasarCursor = "1"
+        item.Limpiar = "0"
+        item.DatoLimpiar = ""
+        item.Campo = "Cuenta"
+        item.Obligatorio = "1"
+        item.Teclazo = Validar.Tecla.kSoloNumeroSinEspacio
+        item.Valida = Validar.texto.vSoloNumerosSinEspacio
+        item.Nuevo = "0"
+        item.Modificar = "0"
+        item.Eliminar = "0"
+        item.Visualizar = "0"
+        lis.Add(item)
+
+        item = New CtrlsEdit
+        item.Control = Me.TxtNomCb
+        item.PasaFoco = "0"
+        item.Formato = "0"
+        item.PasarCursor = "0"
+        item.Limpiar = "0"
+        item.DatoLimpiar = ""
+        item.Campo = ""
+        item.Obligatorio = "0"
+        item.Teclazo = Validar.Tecla.kNada
+        item.Valida = Validar.texto.vNada
+        item.Nuevo = "0"
+        item.Modificar = "0"
+        item.Eliminar = "0"
+        item.Visualizar = "0"
+        lis.Add(item)
+
+        item = New CtrlsEdit
+        item.Control = Me.TxtMoneda
+        item.PasaFoco = "0"
+        item.Formato = "0"
+        item.PasarCursor = "0"
+        item.Limpiar = "0"
+        item.DatoLimpiar = ""
+        item.Campo = ""
+        item.Obligatorio = "0"
+        item.Teclazo = Validar.Tecla.kNada
+        item.Valida = Validar.texto.vNada
+        item.Nuevo = "0"
+        item.Modificar = "0"
+        item.Eliminar = "0"
+        item.Visualizar = "0"
+        lis.Add(item)
+
+
+        item = New CtrlsEdit
+        item.Control = Me.btnEjecutar
+        item.PasaFoco = "1"
+        item.Formato = "0"
+        item.PasarCursor = "1"
+        item.Limpiar = "0"
+        item.DatoLimpiar = ""
+        item.Campo = ""
+        item.Obligatorio = "0"
+        item.Teclazo = Validar.Tecla.kNada
+        item.Valida = Validar.texto.vNada
+        item.Nuevo = "1"
+        item.Modificar = "1"
+        item.Eliminar = "1"
+        item.Visualizar = "0"
+        lis.Add(item)
+
+        Return lis
+
+    End Function
+
+    Friend WithEvents TxtNomCb As System.Windows.Forms.TextBox
+    Friend WithEvents TxtCodCb As System.Windows.Forms.TextBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents TxtCodEmp As System.Windows.Forms.TextBox
+    Friend WithEvents txtNomEmp As System.Windows.Forms.TextBox
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents btnEjecutar As System.Windows.Forms.Button
+    Friend WithEvents btnCancelar As System.Windows.Forms.Button
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents txtDesMes As System.Windows.Forms.TextBox
+    Friend WithEvents Label20 As System.Windows.Forms.Label
+    Friend WithEvents Label19 As System.Windows.Forms.Label
+    Friend WithEvents txtCodMes As System.Windows.Forms.TextBox
+    Friend WithEvents txtAno As System.Windows.Forms.TextBox
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents crv1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
+    Friend WithEvents CrRptEstadoBancos1 As Presentacion.CrRptEstadoBancos
+    Friend WithEvents TxtMoneda As System.Windows.Forms.TextBox
+    Friend WithEvents dtpDesde As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtpHasta As System.Windows.Forms.DateTimePicker
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents TxtNunCta As System.Windows.Forms.TextBox
+End Class

@@ -1,0 +1,14 @@
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\bin\Debug\Datos.dll
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\bin\Debug\Datos.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\bin\Debug\Datos.xml
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\bin\Debug\Entidad.dll
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\bin\Debug\Entidad.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\bin\Debug\Entidad.xml
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\obj\Debug\Datos.vbproj.AssemblyReference.cache
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\obj\Debug\Datos.Resources.resources
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\obj\Debug\Datos.vbproj.GenerateResource.cache
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\obj\Debug\Datos.vbproj.CoreCompileInputs.cache
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\obj\Debug\Datos.vbproj.CopyComplete
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\obj\Debug\Datos.dll
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\obj\Debug\Datos.xml
+D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Datos\obj\Debug\Datos.pdb

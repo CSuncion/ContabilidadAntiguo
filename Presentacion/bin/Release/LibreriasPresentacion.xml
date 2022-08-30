@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LibreriasPresentacion
+</name>
+</assembly>
+<members>
+<member name="P:LibreriasPresentacion.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:LibreriasPresentacion.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:LibreriasPresentacion.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="M:LibreriasPresentacion.Evento.AccionEfectoFoco">
+	<summary>
+ Sirve para darle un fondo especial a los controles que
+ obtienen en foco
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LibreriasPresentacion.Evento.AccionMoverFoco">
+	<summary>
+ Pasa la orden de mover el foco a los controles de ListCtrls que tienen la opcion:Si
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LibreriasPresentacion.Evento.TeclaPermitida(System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ Verifica si la tecla presionada es la correcta para mover el foco
+ </summary>
+	<param name="e">Evento KeyDown</param>
+	<returns>devuelve True si la tecla presionada es (Enter,Up,Down,ShiftKey) o
+ False si es otra tecla </returns>
+	<remarks></remarks>
+</member><member name="M:LibreriasPresentacion.Evento.AccionPermitida(System.String,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ Chequea si el tipo de control y la tecla presionada produce una accion permitida
+ </summary>
+	<param name="tipoCtrl">Nombre del tipo de control,ejemplo(TextBox)</param>
+	<param name="e">Evento KeyDown</param>
+	<returns>Tres posibles valores(Avanzar,Retroceder,Empty)</returns>
+	<remarks></remarks>
+</member><member name="M:LibreriasPresentacion.Evento.MoverFoco(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ Mover Foco de un control
+ </summary>
+	<param name="sender">Objeto control</param>
+	<param name="e">Evento KeyDown</param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
