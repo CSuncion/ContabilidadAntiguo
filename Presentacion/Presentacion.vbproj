@@ -36,8 +36,8 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
     <FileUpgradeFlags>40</FileUpgradeFlags>
-    <UpgradeBackupLocation>D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Backup1\</UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Backup2\</UpgradeBackupLocation>
+    <OldToolsVersion>Current</OldToolsVersion>
     <ApplicationRevision>6</ApplicationRevision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
