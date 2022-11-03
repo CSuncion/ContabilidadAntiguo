@@ -277,7 +277,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>0OdzUf4DL85eV3iwnJFE0LrYgz0=</dsig:DigestValue>
+        <dsig:DigestValue>7BrVDB7j21WDr+gEyS6arkVDtOo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -289,7 +289,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>RxQECB9ZHwGzZBfVSLcXxTP8Snk=</dsig:DigestValue>
+        <dsig:DigestValue>xEwlniBif3so1rum6c5KHICaZJY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -337,19 +337,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>OwOAiKunWi9WVUPm4Nf2SpXhOAM=</dsig:DigestValue>
+        <dsig:DigestValue>IFxcFHTyBlADusfv/uv41kn88kA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Presentacion.exe" size="5452752">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Presentacion.exe" size="5468112">
       <assemblyIdentity name="Presentacion" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>vcpJU5MpTZM4dkRrLb6vCjTiw70=</dsig:DigestValue>
+        <dsig:DigestValue>YrV6RWpFLzF4vHCKZ8o6SqDWm7M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

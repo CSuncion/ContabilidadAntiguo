@@ -36,7 +36,7 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
     <FileUpgradeFlags>40</FileUpgradeFlags>
-    <UpgradeBackupLocation>D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Backup8\</UpgradeBackupLocation>
+    <UpgradeBackupLocation>D:\Perú Ticcs\Gabriel\Contabilidad Antiguo\ProyectoContabilidad\Backup10\</UpgradeBackupLocation>
     <OldToolsVersion>Current</OldToolsVersion>
     <ApplicationRevision>6</ApplicationRevision>
   </PropertyGroup>
@@ -3553,6 +3553,7 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\01 Excel.ico" />

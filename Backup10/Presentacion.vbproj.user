@@ -1,0 +1,17 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <PropertyGroup>
+    <ReferencePath>C:\Program Files (x86)\Common Files\Business Objects\2.7\Managed\C:\Program Files\Common Files\Business Objects\2.7\Managed\c:\Archivos de programa\Archivos comunes\Business Objects\2.7\Managed\</ReferencePath>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <PublishUrlHistory>\\Srv2012r2\sistemas\SistemasGhv\ContabilidadGeneral\|\\Srv2012r2\sistemas\SistemasGhv\ContabilidadGeneralNueva\|Z:\SistemasGhv\ContabilidadGeneral\|R:\SistemasGhv\ContabilidadGeneral\|\SVR2012R2\Sistemas\SistemasGhv\ContabilidadGeneral\</PublishUrlHistory>
+    <InstallUrlHistory>\\Srv2012r2\sistemas\SistemasGhv\ContabilidadGeneral\|\\SRV2012R2\Sistemas\SistemaGhv\ContabilidadGeneral\|\\SRV2012R2\sistemas\SistemaContabilidadGeneral\|\\Srv2012r2\sistemas\SistemaContabilidadGeneral\Contabilidad_General\|\\SRV2012R2\sistemas\SistemaContabilidadGeneral\Contabilidad_1\</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>es-ES</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>
